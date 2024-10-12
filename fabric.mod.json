@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "embeddium",
+  "version": "0.3.25+mc1.20.1",
+  "name": "More Embeddium!",
+  "description": "Embeddium is a fork of Sodium which focuses on mod compatibility",
+  "authors": [
+    {
+      "name": "embeddedt"
+    },
+    {
+      "name": "jellysquid3",
+      "contact": {
+        "email": "jellysquid@pm.me",
+        "homepage": "https://jellysquid.me"
+      }
+    }
+  ],
+  "contributors": [
+    "@IMS212",
+    "@bytzo",
+    "@PepperCode1",
+    "@FlashyReese",
+    "@altrisi",
+    "@Grayray75",
+    "@Madis0",
+    "@Johni0702",
+    "@comp500",
+    "@coderbot16",
+    "@Moulberry",
+    "@MCRcortex",
+    "@Altirix",
+    "@pajicadvance",
+    "@Kroppeb",
+    "@douira",
+    "@burgerindividual",
+    "@TwistedZero",
+    "@Leo40Git"
+  ],
+  "contact": {
+    "homepage": "https://github.com/embeddedt/embeddium",
+    "sources": "https://github.com/embeddedt/embeddium",
+    "issues": "https://github.com/embeddedt/embeddium/issues"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.jellysquid.mods.sodium.client.SodiumClientMod"
+    ],
+    "preLaunch": [
+      "org.embeddedt.embeddium.taint.incompats.SupersededModDetector",
+      "me.jellysquid.mods.sodium.client.SodiumPreLaunch"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.donate": "https://caffeinemc.net/donate",
+        "modmenu.discord": "https://discord.gg/rN9Y7caguP",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+        "modmenu.modrinth": "https://modrinth.com/mod/embeddium"
+      }
+    }
+  },
+  "accessWidener": "sodium.accesswidener",
+  "mixins": [
+    "embeddium.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.1",
+    "fabricloader": "\u003e\u003d0.15.6",
+    "fabric-rendering-data-attachment-v1": "\u003e\u003d0.1",
+    "fabric-rendering-fluids-v1": "\u003e\u003d0.1"
+  },
+  "breaks": {
+    "optifabric": "*",
+    "canvas": "*",
+    "sodium-blendingregistry": "*",
+    "ocrenderfix_sodium": "*",
+    "betterfpsdist": "\u003c1.20.1-3.8",
+    "bobby": "\u003c5.0.1",
+    "cauldron_dyeing": "\u003c1.0.11",
+    "cullleaves": "\u003c\u003d3.1.0",
+    "custom_hud": "\u003c\u003d3.1.0+1.20",
+    "dashloader": "\u003c5.0.0-beta.2",
+    "farsight": "\u003c1.20.1-4.0",
+    "fluidvoidfading": "\u003c1.1.2",
+    "iceberg": "\u003c1.1.14",
+    "iris": "\u003c1.6.17",
+    "immersive_portals": "\u003c\u003d3.3.9",
+    "indium": "\u003c\u003d1.0.27",
+    "notenoughcrashes": "\u003c4.4.6",
+    "noxesium": "\u003c1.0.2",
+    "rayon": "\u003c\u003d1.7.2+1.20.1",
+    "reeses-sodium-options": "*",
+    "sodium-extra": "\u003c0.5.4",
+    "sspb": "\u003c3.2.0"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/sodium.jar"
+    },
+    {
+      "file": "META-INF/jars/indium.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-api-base-0.4.31+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-block-view-api-v2-1.0.1+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-rendering-fluids-v1-3.0.28+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.37+92a0d36777.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-resource-loader-v0-0.11.10+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-renderer-api-v1-3.2.1+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-renderer-indigo-1.5.2+85287f9f77.jar"
+    },
+    {
+      "file": "META-INF/jars/continuity-3.0.0-beta.5+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/lazydfu-0.1.3.jar"
+    },
+    {
+      "file": "META-INF/jars/sodiumdynamiclights-fabric-1.0.8-1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/lithium-fabric-mc1.20.1-0.11.2.jar"
+    },
+    {
+      "file": "META-INF/jars/sodiumextras-fabric-1.0.5-1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cullleaves-fabric-3.2.0.jar"
+    },
+    {
+      "file": "META-INF/jars/sodium-extra-0.5.4+mc1.20.1-build.115.jar"
+    },
+    {
+      "file": "META-INF/jars/ImmediatelyFast-Fabric-1.2.21+1.20.4.jar"
+    },
+    {
+      "file": "META-INF/jars/modernfix-fabric-5.19.4+mc1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cloth-config-11.1.136-fabric.jar"
+    },
+    {
+      "file": "META-INF/jars/RuOK-1.5.6_fabric1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/smoothboot-fabric-1.20.1-1.7.0.jar"
+    },
+    {
+      "file": "META-INF/jars/starlight-1.1.2+fabric.dbc156f.jar"
+    },
+    {
+      "file": "META-INF/jars/dashloader-5.0.0-beta.2+1.20.0.jar"
+    }
+  ]
+}

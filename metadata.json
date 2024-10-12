@@ -1,0 +1,280 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "io.github.llamalad7",
+        "artifact": "mixinextras-forge"
+      },
+      "version": {
+        "range": "[0.3.5,)",
+        "artifactVersion": "0.3.5"
+      },
+      "path": "META-INF/jarjar/mixinextras-forge-0.3.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.github.llamalad6",
+        "artifact": "sodiumoptionsapi-forge"
+      },
+      "version": {
+        "range": "[1.0.2,)",
+        "artifactVersion": "1.0.2"
+      },
+      "path": "META-INF/jarjar/sodiumoptionsapi-forge-1.0.2-1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group1",
+      "artifact": "acedium"
+      },
+      "version": {
+      "range": "[0.2.7,)",
+      "artifactVersion": "0.2.7"
+      },
+      "path": "META-INF/jarjar/acedium-0.2.7-beta.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group2",
+      "artifact": "betterfpsdist"
+      },
+      "version": {
+      "range": "[6.0,)",
+      "artifactVersion": "6.0"
+      },
+      "path": "META-INF/jarjar/betterfpsdist-1.20.1-6.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group3",
+      "artifact": "cloth-config"
+      },
+      "version": {
+      "range": "[11.1.136,)",
+      "artifactVersion": "11.1.136"
+      },
+      "path": "META-INF/jarjar/cloth-config-11.1.136-forge.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group4",
+      "artifact": "cullleaves"
+      },
+      "version": {
+      "range": "[3.2.0,)",
+      "artifactVersion": "3.2.0"
+      },
+      "path": "META-INF/jarjar/cullleaves-forge-3.2.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group5",
+      "artifact": "cupboard"
+      },
+      "version": {
+      "range": "[2.7,)",
+      "artifactVersion": "2.7"
+      },
+      "path": "META-INF/jarjar/cupboard-1.20.1-2.7.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group6",
+      "artifact": "entityculling"
+      },
+      "version": {
+      "range": "[1.7.0,)",
+      "artifactVersion": "1.7.0"
+      },
+      "path": "META-INF/jarjar/entityculling-forge-1.7.0-mc1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group8",
+      "artifact": "ferritecore"
+      },
+      "version": {
+      "range": "[6.0.1,)",
+      "artifactVersion": "6.0.1"
+      },
+      "path": "META-INF/jarjar/ferritecore-6.0.1-forge.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group9",
+      "artifact": "ImmediatelyFast"
+      },
+      "version": {
+      "range": "[1.2.21+1.20.4,)",
+      "artifactVersion": "1.2.21+1.20.4"
+      },
+      "path": "META-INF/jarjar/ImmediatelyFast-Forge-1.2.21+1.20.4.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group10",
+      "artifact": "KryptonReforged"
+      },
+      "version": {
+      "range": "[0.2.3,)",
+      "artifactVersion": "0.2.3"
+      },
+      "path": "META-INF/jarjar/KryptonReforged-0.2.3.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group11",
+      "artifact": "midnightlib"
+      },
+      "version": {
+      "range": "[1.4.2,)",
+      "artifactVersion": "1.4.2"
+      },
+      "path": "META-INF/jarjar/midnightlib-forge-1.4.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group12",
+      "artifact": "modernfix"
+      },
+      "version": {
+      "range": "[5.19.4+mc1.20.1,)",
+      "artifactVersion": "5.19.4+mc1.20.1"
+      },
+      "path": "META-INF/jarjar/modernfix-forge-5.19.4+mc1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group13",
+      "artifact": "noisium"
+      },
+      "version": {
+      "range": "[2.3.0+mc1.20-1.20.1,)",
+      "artifactVersion": "2.3.0+mc1.20-1.20.1"
+      },
+      "path": "META-INF/jarjar/noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group14",
+      "artifact": "radium"
+      },
+      "version": {
+      "range": "[0.12.4+git.26c9d8e,)",
+      "artifactVersion": "0.12.4+git.26c9d8e"
+      },
+      "path": "META-INF/jarjar/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group15",
+      "artifact": "rubidium-extra"
+      },
+      "version": {
+      "range": "[0.5.4.3+mc1.20.1-build.121,)",
+      "artifactVersion": "0.5.4.3+mc1.20.1-build.121"
+      },
+      "path": "META-INF/jarjar/rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group16",
+      "artifact": "RuOK"
+      },
+      "version": {
+      "range": "[1.5.6_forge1.20.1,)",
+      "artifactVersion": "1.5.6_forge1.20.1"
+      },
+      "path": "META-INF/jarjar/RuOK-1.5.6_forge1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group17",
+      "artifact": "saturn"
+      },
+      "version": {
+      "range": "[0.1.3,)",
+      "artifactVersion": "0.1.3"
+      },
+      "path": "META-INF/jarjar/saturn-mc1.20.1-0.1.3.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group18",
+      "artifact": "smoothboot(reloaded)"
+      },
+      "version": {
+      "range": "[0.0.4,)",
+      "artifactVersion": "0.0.4"
+      },
+      "path": "META-INF/jarjar/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group19",
+      "artifact": "sodiumdynamiclights"
+      },
+      "version": {
+      "range": "[1.0.8,)",
+      "artifactVersion": "1.0.8"
+      },
+      "path": "META-INF/jarjar/sodiumdynamiclights-forge-1.0.8-1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group20",
+      "artifact": "starlight"
+      },
+      "version": {
+      "range": "[1.1.2+forge.1cda73c,)",
+      "artifactVersion": "1.1.2+forge.1cda73c"
+      },
+      "path": "META-INF/jarjar/starlight-1.1.2+forge.1cda73c.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group21",
+      "artifact": "sodiumextras"
+      },
+      "version": {
+      "range": "[1.0.5,)",
+      "artifactVersion": "1.0.5"
+      },
+      "path": "META-INF/jarjar/sodiumextras-forge-1.0.5-1.20.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+      "group": "random.group22",
+      "artifact": "fusion"
+      },
+      "version": {
+      "range": "[1.1.1,)",
+      "artifactVersion": "1.1.1"
+      },
+      "path": "META-INF/jarjar/fusion-1.1.1-forge-mc1.20.1.jar",
+      "isObfuscated": false
+    }
+  ]
+}
